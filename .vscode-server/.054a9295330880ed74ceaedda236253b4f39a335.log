@@ -24,3 +24,5 @@ Extension host agent listening on 34115
 [03:09:16] [127.0.0.1][47f7f0c4][ExtensionHostConnection] <16988> Extension Host Process exited with code: 0, signal: null.
 Last EH closed, waiting before shutting down
 [03:09:16] Last EH closed, waiting before shutting down
+Last EH closed, shutting down
+[03:14:16] Last EH closed, shutting down

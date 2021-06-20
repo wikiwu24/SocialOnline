@@ -54,3 +54,27 @@ go get cloud.google.com/go/storage
 cd ~/around
 go run *go
 git init
+git add
+git add.
+git add .
+git commit
+git config --global user.name "wikiwu24"
+git commit
+fg
+git push
+git remote add origin https://github.com/wikiwu24/SocialOnline.git
+git push
+git push --set-upstream origin master
+git push -u origin master
+git remote add origin https://github.com/wikiwu24/SocialOnline.git
+git push -u origin master
+git commit -m "complete search & add post"
+git push origin master
+git status
+git checkout
+git checkout -b "wuke/post"
+git checkout
+git checkout wuke/post
+git status
+git commit -a
+fg
