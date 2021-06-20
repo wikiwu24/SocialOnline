@@ -1,0 +1,26 @@
+
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+Extension host agent listening on 34115
+
+[03:01:10] Extension host agent started.
+[03:01:10] [127.0.0.1][6ef1b5b2][ManagementConnection] New connection established.
+[03:01:11] [127.0.0.1][47f7f0c4][ExtensionHostConnection] New connection established.
+[03:01:11] [127.0.0.1][47f7f0c4][ExtensionHostConnection] <16988> Launched Extension Host Process.
+[03:01:15] [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
+[IPC Library: File Watcher (chokidar)] Unhandled Promise Rejection:  Canceled: Canceled
+    at F (/home/wuke8866/.vscode-server/bin/054a9295330880ed74ceaedda236253b4f39a335/out/vs/platform/files/node/watcher/unix/watcherApp.js:5:1157)
+    at N.cancel (/home/wuke8866/.vscode-server/bin/054a9295330880ed74ceaedda236253b4f39a335/out/vs/platform/files/node/watcher/unix/watcherApp.js:10:25861)
+    at R.cancel (/home/wuke8866/.vscode-server/bin/054a9295330880ed74ceaedda236253b4f39a335/out/vs/platform/files/node/watcher/unix/watcherApp.js:10:26230)
+    at Object.stop (/home/wuke8866/.vscode-server/bin/054a9295330880ed74ceaedda236253b4f39a335/out/vs/platform/files/node/watcher/unix/watcherApp.js:11:32548)
+    at async C.stop (/home/wuke8866/.vscode-server/bin/054a9295330880ed74ceaedda236253b4f39a335/out/vs/platform/files/node/watcher/unix/watcherApp.js:11:33854)
+[03:09:15] [127.0.0.1][6ef1b5b2][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[03:09:16] [127.0.0.1][47f7f0c4][ExtensionHostConnection] <16988> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[03:09:16] Last EH closed, waiting before shutting down

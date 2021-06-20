@@ -1,0 +1,38 @@
+
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+Extension host agent listening on 36239
+
+[01:14:20] Extension host agent started.
+[01:14:20] [127.0.0.1][7364f825][ManagementConnection] New connection established.
+[01:14:21] [127.0.0.1][bb4f497e][ExtensionHostConnection] New connection established.
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+[IPC Library: Pty Host]  INFO Listing 0 persistent terminals, 0 total terminals
+[01:14:21] [127.0.0.1][bb4f497e][ExtensionHostConnection] <20673> Launched Extension Host Process.
+[01:14:35] [127.0.0.1][7364f825][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[01:14:36] [127.0.0.1][bb4f497e][ExtensionHostConnection] <20673> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[01:14:36] Last EH closed, waiting before shutting down
+Got delay-shutdown request while in shutdown timeout, delaying
+[01:14:38] Got delay-shutdown request while in shutdown timeout, delaying
+Cancelling previous shutdown timeout
+[01:14:38] Cancelling previous shutdown timeout
+[01:14:39] [127.0.0.1][f11af62e][ManagementConnection] New connection established.
+[01:14:39] [127.0.0.1][7111a6c1][ExtensionHostConnection] New connection established.
+[01:14:39] [127.0.0.1][7111a6c1][ExtensionHostConnection] <20861> Launched Extension Host Process.
+[IPC Library: Pty Host]  INFO Listing 0 persistent terminals, 0 total terminals
+[01:14:47] [127.0.0.1][f11af62e][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[01:14:48] [127.0.0.1][7111a6c1][ExtensionHostConnection] <20861> Extension Host Process exited with code: 0, signal: null.
+Cancelling previous shutdown timeout
+[01:14:48] Cancelling previous shutdown timeout
+Last EH closed, waiting before shutting down
+[01:14:48] Last EH closed, waiting before shutting down
+Last EH closed, shutting down
+[01:19:48] Last EH closed, shutting down

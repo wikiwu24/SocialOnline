@@ -1,0 +1,28 @@
+[2021-05-15 14:39:35.668] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2021-05-15 14:39:35.668] [remoteagent] [info] Extension host agent started.
+[2021-05-15 14:39:46.799] [remoteagent] [info] [127.0.0.1][e4c2fd5e][ManagementConnection] New connection established.
+[2021-05-15 14:39:47.038] [remoteagent] [info] [127.0.0.1][689ca2a2][ExtensionHostConnection] New connection established.
+[2021-05-15 14:39:47.407] [remoteagent] [info] [127.0.0.1][689ca2a2][ExtensionHostConnection] <22775> Launched Extension Host Process.
+[2021-05-15 17:58:12.011] [remoteagent] [info] [127.0.0.1][e4c2fd5e][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2021-05-15 19:17:27.159] [remoteagent] [info] [127.0.0.1][e4c2fd5e][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2021-05-15 19:17:27.159] [remoteagent] [info] [127.0.0.1][e4c2fd5e][ManagementConnection] The client has reconnected.
+[2021-05-15 19:17:27.502] [remoteagent] [info] [127.0.0.1][689ca2a2][ExtensionHostConnection] The client has reconnected.
+[2021-05-15 20:08:39.362] [remoteagent] [info] [127.0.0.1][e4c2fd5e][ManagementConnection] The client has reconnected.
+[2021-05-15 20:09:08.562] [remoteagent] [info] [127.0.0.1][689ca2a2][ExtensionHostConnection] The client has reconnected.
+[2021-05-15 20:46:22.205] [remoteagent] [info] [127.0.0.1][e4c2fd5e][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2021-05-15 21:10:12.029] [remoteagent] [info] [127.0.0.1][e4c2fd5e][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2021-05-15 21:10:12.030] [remoteagent] [info] [127.0.0.1][689ca2a2][ExtensionHostConnection] The client has reconnected.
+[2021-05-15 21:10:12.152] [remoteagent] [info] [127.0.0.1][e4c2fd5e][ManagementConnection] The client has reconnected.
+[2021-05-16 00:30:33.175] [remoteagent] [info] [127.0.0.1][e4c2fd5e][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2021-05-16 03:22:28.019] [remoteagent] [info] [127.0.0.1][689ca2a2][ExtensionHostConnection] <22775> Extension Host Process exited with code: 0, signal: null.
+[2021-05-16 03:22:28.019] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2021-05-16 03:27:28.021] [remoteagent] [info] Last EH closed, shutting down
