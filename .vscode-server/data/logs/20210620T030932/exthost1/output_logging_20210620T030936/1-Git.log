@@ -10,3 +10,38 @@ Open repository: /home/wuke8866
 > git remote --verbose
 > git config --get commit.template
 > git check-ignore -v -z --stdin
+> git show --textconv :around/handler.go
+> git ls-files --stage -- /home/wuke8866/around/handler.go
+> git cat-file -s 00a19b0ea2170dc7f5d7e64c1579ff830a0db3cc
+> git ls-files --stage -- /home/wuke8866/around/handler.go
+> git cat-file -s 00a19b0ea2170dc7f5d7e64c1579ff830a0db3cc
+> git show --textconv :around/handler.go
+> git ls-files --stage -- /home/wuke8866/around/handler.go
+> git cat-file -s 00a19b0ea2170dc7f5d7e64c1579ff830a0db3cc
+> git show --textconv :around/handler.go
+> git ls-files --stage -- /home/wuke8866/around/handler.go
+> git cat-file -s 00a19b0ea2170dc7f5d7e64c1579ff830a0db3cc
+> git show --textconv :around/handler.go
+> git checkout -q -b wuke/post --no-track HEAD
+fatal: A branch named 'wuke/post' already exists.
+git.getSCMResource.uri file:///home/wuke8866/around/handler.go
+repo root /home/wuke8866
+> git show --textconv :social/handler.go
+> git ls-files --stage -- /home/wuke8866/social/handler.go
+> git check-ignore -v -z --stdin
+> git show --textconv :social/go.sum
+> git ls-files --stage -- /home/wuke8866/social/go.sum
+> git show --textconv :social/handler.go
+> git ls-files --stage -- /home/wuke8866/social/handler.go
+> git show --textconv :social/main.go
+> git ls-files --stage -- /home/wuke8866/social/main.go
+> git show --textconv :social/post.go
+> git ls-files --stage -- /home/wuke8866/social/post.go
+> git ls-files --stage -- /home/wuke8866/social/post.go
+> git show --textconv :social/post.go
+> git ls-files --stage -- /home/wuke8866/social/post.go
+> git show --textconv :social/post.go
+> git ls-files --stage -- /home/wuke8866/social/post.go
+> git show --textconv :social/post.go
+> git ls-files --stage -- /home/wuke8866/social/post.go
+> git show --textconv :social/post.go

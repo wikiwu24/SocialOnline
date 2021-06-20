@@ -245,3 +245,256 @@ stack trace: Error: Could not find pty with id "3",    at P._throwIfNoPty (/home
   VSCODE_NLS_CONFIG: '{"locale":"en","availableLanguages":{}}',
   BROWSER: '/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/bin/helpers/browser.sh'
 }
+[03:25:05] [127.0.0.1][483a55a3][ExtensionHostConnection] The client has reconnected.
+[03:25:08] [127.0.0.1][360efdca][ManagementConnection] The client has reconnected.
+rejected promise not handled within 1 second: Error: Could not find pty with id "3"
+stack trace: Error: Could not find pty with id "3",    at P._throwIfNoPty (/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/out/vs/platform/terminal/node/ptyHostMain.js:12:49253),    at P.updateTitle (/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/out/vs/platform/terminal/node/ptyHostMain.js:12:46512),    at Object.call (/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/out/vs/platform/terminal/node/ptyHostMain.js:11:8338),    at P.onPromise (/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/out/vs/platform/terminal/node/ptyHostMain.js:10:50875),    at P.onRawMessage (/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/out/vs/platform/terminal/node/ptyHostMain.js:10:50234),    at /home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/out/vs/platform/terminal/node/ptyHostMain.js:10:49487,    at g.fire (/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/out/vs/platform/terminal/node/ptyHostMain.js:8:1835),    at process.W (/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/out/vs/platform/terminal/node/ptyHostMain.js:6:30761),    at process.emit (events.js:315:20),    at emit (internal/child_process.js:903:12),    at processTicksAndRejections (internal/process/task_queues.js:81:21)
+[Error: Could not find pty with id "3",    at P._throwIfNoPty (/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/out/vs/platform/terminal/node/ptyHostMain.js:12:49253),    at P.updateTitle (/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/out/vs/platform/terminal/node/ptyHostMain.js:12:46512),    at Object.call (/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/out/vs/platform/terminal/node/ptyHostMain.js:11:8338),    at P.onPromise (/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/out/vs/platform/terminal/node/ptyHostMain.js:10:50875),    at P.onRawMessage (/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/out/vs/platform/terminal/node/ptyHostMain.js:10:50234),    at /home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/out/vs/platform/terminal/node/ptyHostMain.js:10:49487,    at g.fire (/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/out/vs/platform/terminal/node/ptyHostMain.js:8:1835),    at process.W (/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/out/vs/platform/terminal/node/ptyHostMain.js:6:30761),    at process.emit (events.js:315:20),    at emit (internal/child_process.js:903:12),    at processTicksAndRejections (internal/process/task_queues.js:81:21)]
+[03:30:56] [127.0.0.1][360efdca][ManagementConnection] The client has reconnected.
+rejected promise not handled within 1 second: Error: Could not find pty with id "4"
+stack trace: Error: Could not find pty with id "4",    at P._throwIfNoPty (/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/out/vs/platform/terminal/node/ptyHostMain.js:12:49253),    at P.updateTitle (/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/out/vs/platform/terminal/node/ptyHostMain.js:12:46512),    at Object.call (/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/out/vs/platform/terminal/node/ptyHostMain.js:11:8338),    at P.onPromise (/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/out/vs/platform/terminal/node/ptyHostMain.js:10:50875),    at P.onRawMessage (/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/out/vs/platform/terminal/node/ptyHostMain.js:10:50234),    at /home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/out/vs/platform/terminal/node/ptyHostMain.js:10:49487,    at g.fire (/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/out/vs/platform/terminal/node/ptyHostMain.js:8:1835),    at process.W (/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/out/vs/platform/terminal/node/ptyHostMain.js:6:30761),    at process.emit (events.js:315:20),    at emit (internal/child_process.js:903:12),    at processTicksAndRejections (internal/process/task_queues.js:81:21)
+[Error: Could not find pty with id "4",    at P._throwIfNoPty (/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/out/vs/platform/terminal/node/ptyHostMain.js:12:49253),    at P.updateTitle (/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/out/vs/platform/terminal/node/ptyHostMain.js:12:46512),    at Object.call (/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/out/vs/platform/terminal/node/ptyHostMain.js:11:8338),    at P.onPromise (/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/out/vs/platform/terminal/node/ptyHostMain.js:10:50875),    at P.onRawMessage (/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/out/vs/platform/terminal/node/ptyHostMain.js:10:50234),    at /home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/out/vs/platform/terminal/node/ptyHostMain.js:10:49487,    at g.fire (/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/out/vs/platform/terminal/node/ptyHostMain.js:8:1835),    at process.W (/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/out/vs/platform/terminal/node/ptyHostMain.js:6:30761),    at process.emit (events.js:315:20),    at emit (internal/child_process.js:903:12),    at processTicksAndRejections (internal/process/task_queues.js:81:21)]
+[03:32:27] [127.0.0.1][360efdca][ManagementConnection] The client has reconnected.
+[03:38:08] *
+[03:38:08] baseEnv {
+  MAIL: '/var/mail/wuke8866',
+  USER: 'wuke8866',
+  SSH_CLIENT: '24.91.9.201 10691 22',
+  SHLVL: '3',
+  OLDPWD: '/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48',
+  HOME: '/home/wuke8866',
+  LOGNAME: 'wuke8866',
+  _: '/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/node',
+  XDG_SESSION_ID: '1465',
+  PATH: '/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/bin:/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-16-oracle/bin:/usr/lib/jvm/java-16-oracle/db/bin',
+  VSCODE_AGENT_FOLDER: '/home/wuke8866/.vscode-server',
+  XDG_RUNTIME_DIR: '/run/user/1001',
+  LANG: 'C.UTF-8',
+  SHELL: '/bin/bash',
+  PWD: '/home/wuke8866',
+  SSH_CONNECTION: '24.91.9.201 10691 10.128.0.2 22',
+  VSCODE_INJECT_NODE_MODULE_LOOKUP_PATH: '/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/remote/node_modules',
+  VSCODE_CWD: '/home/wuke8866',
+  LS_COLORS: '',
+  LESSCLOSE: '/usr/bin/lesspipe %s %s',
+  JAVA_HOME: '/usr/lib/jvm/java-16-oracle',
+  J2SDKDIR: '/usr/lib/jvm/java-16-oracle',
+  DERBY_HOME: '/usr/lib/jvm/java-16-oracle/db',
+  J2REDIR: '/usr/lib/jvm/java-16-oracle',
+  XDG_DATA_DIRS: '/usr/local/share:/usr/share:/var/lib/snapd/desktop',
+  LESSOPEN: '| /usr/bin/lesspipe %s',
+  VSCODE_LOG_NATIVE: 'false',
+  VSCODE_AMD_ENTRYPOINT: 'vs/server/remoteExtensionHostProcess',
+  VSCODE_PIPE_LOGGING: 'true',
+  VSCODE_VERBOSE_LOGGING: 'true',
+  VSCODE_EXTHOST_WILL_SEND_SOCKET: 'true',
+  VSCODE_HANDLES_UNCAUGHT_ERRORS: 'true',
+  VSCODE_LOG_STACK: 'false',
+  VSCODE_NLS_CONFIG: '{"locale":"en","availableLanguages":{}}',
+  BROWSER: '/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/bin/helpers/browser.sh'
+}
+[03:44:20] [127.0.0.1][360efdca][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[03:44:21] [127.0.0.1][483a55a3][ExtensionHostConnection] <17298> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[03:44:21] Last EH closed, waiting before shutting down
+Got delay-shutdown request while in shutdown timeout, delaying
+[03:44:31] Got delay-shutdown request while in shutdown timeout, delaying
+Cancelling previous shutdown timeout
+[03:44:31] Cancelling previous shutdown timeout
+[03:44:31] [127.0.0.1][65222f31][ManagementConnection] New connection established.
+[03:44:32] [127.0.0.1][58be527a][ExtensionHostConnection] New connection established.
+[03:44:32] [127.0.0.1][58be527a][ExtensionHostConnection] <19030> Launched Extension Host Process.
+[03:44:36] [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
+[03:44:36] *
+[03:44:36] baseEnv {
+  MAIL: '/var/mail/wuke8866',
+  USER: 'wuke8866',
+  SSH_CLIENT: '24.91.9.201 10691 22',
+  SHLVL: '3',
+  OLDPWD: '/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48',
+  HOME: '/home/wuke8866',
+  LOGNAME: 'wuke8866',
+  _: '/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/node',
+  XDG_SESSION_ID: '1465',
+  PATH: '/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/bin:/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-16-oracle/bin:/usr/lib/jvm/java-16-oracle/db/bin',
+  VSCODE_AGENT_FOLDER: '/home/wuke8866/.vscode-server',
+  XDG_RUNTIME_DIR: '/run/user/1001',
+  LANG: 'C.UTF-8',
+  SHELL: '/bin/bash',
+  PWD: '/home/wuke8866',
+  SSH_CONNECTION: '24.91.9.201 10691 10.128.0.2 22',
+  VSCODE_INJECT_NODE_MODULE_LOOKUP_PATH: '/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/remote/node_modules',
+  VSCODE_CWD: '/home/wuke8866',
+  LS_COLORS: '',
+  LESSCLOSE: '/usr/bin/lesspipe %s %s',
+  JAVA_HOME: '/usr/lib/jvm/java-16-oracle',
+  J2SDKDIR: '/usr/lib/jvm/java-16-oracle',
+  DERBY_HOME: '/usr/lib/jvm/java-16-oracle/db',
+  J2REDIR: '/usr/lib/jvm/java-16-oracle',
+  XDG_DATA_DIRS: '/usr/local/share:/usr/share:/var/lib/snapd/desktop',
+  LESSOPEN: '| /usr/bin/lesspipe %s',
+  VSCODE_LOG_NATIVE: 'false',
+  VSCODE_AMD_ENTRYPOINT: 'vs/server/remoteExtensionHostProcess',
+  VSCODE_PIPE_LOGGING: 'true',
+  VSCODE_VERBOSE_LOGGING: 'true',
+  VSCODE_EXTHOST_WILL_SEND_SOCKET: 'true',
+  VSCODE_HANDLES_UNCAUGHT_ERRORS: 'true',
+  VSCODE_LOG_STACK: 'false',
+  VSCODE_NLS_CONFIG: '{"locale":"en","availableLanguages":{}}',
+  BROWSER: '/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/bin/helpers/browser.sh'
+}
+[03:44:38] *
+[03:44:38] baseEnv {
+  MAIL: '/var/mail/wuke8866',
+  USER: 'wuke8866',
+  SSH_CLIENT: '24.91.9.201 10691 22',
+  SHLVL: '3',
+  OLDPWD: '/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48',
+  HOME: '/home/wuke8866',
+  LOGNAME: 'wuke8866',
+  _: '/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/node',
+  XDG_SESSION_ID: '1465',
+  PATH: '/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/bin:/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-16-oracle/bin:/usr/lib/jvm/java-16-oracle/db/bin',
+  VSCODE_AGENT_FOLDER: '/home/wuke8866/.vscode-server',
+  XDG_RUNTIME_DIR: '/run/user/1001',
+  LANG: 'C.UTF-8',
+  SHELL: '/bin/bash',
+  PWD: '/home/wuke8866',
+  SSH_CONNECTION: '24.91.9.201 10691 10.128.0.2 22',
+  VSCODE_INJECT_NODE_MODULE_LOOKUP_PATH: '/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/remote/node_modules',
+  VSCODE_CWD: '/home/wuke8866',
+  LS_COLORS: '',
+  LESSCLOSE: '/usr/bin/lesspipe %s %s',
+  JAVA_HOME: '/usr/lib/jvm/java-16-oracle',
+  J2SDKDIR: '/usr/lib/jvm/java-16-oracle',
+  DERBY_HOME: '/usr/lib/jvm/java-16-oracle/db',
+  J2REDIR: '/usr/lib/jvm/java-16-oracle',
+  XDG_DATA_DIRS: '/usr/local/share:/usr/share:/var/lib/snapd/desktop',
+  LESSOPEN: '| /usr/bin/lesspipe %s',
+  VSCODE_LOG_NATIVE: 'false',
+  VSCODE_AMD_ENTRYPOINT: 'vs/server/remoteExtensionHostProcess',
+  VSCODE_PIPE_LOGGING: 'true',
+  VSCODE_VERBOSE_LOGGING: 'true',
+  VSCODE_EXTHOST_WILL_SEND_SOCKET: 'true',
+  VSCODE_HANDLES_UNCAUGHT_ERRORS: 'true',
+  VSCODE_LOG_STACK: 'false',
+  VSCODE_NLS_CONFIG: '{"locale":"en","availableLanguages":{}}',
+  BROWSER: '/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/bin/helpers/browser.sh'
+}
+[03:44:39] *
+[03:44:39] baseEnv {
+  MAIL: '/var/mail/wuke8866',
+  USER: 'wuke8866',
+  SSH_CLIENT: '24.91.9.201 10691 22',
+  SHLVL: '3',
+  OLDPWD: '/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48',
+  HOME: '/home/wuke8866',
+  LOGNAME: 'wuke8866',
+  _: '/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/node',
+  XDG_SESSION_ID: '1465',
+  PATH: '/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/bin:/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-16-oracle/bin:/usr/lib/jvm/java-16-oracle/db/bin',
+  VSCODE_AGENT_FOLDER: '/home/wuke8866/.vscode-server',
+  XDG_RUNTIME_DIR: '/run/user/1001',
+  LANG: 'C.UTF-8',
+  SHELL: '/bin/bash',
+  PWD: '/home/wuke8866',
+  SSH_CONNECTION: '24.91.9.201 10691 10.128.0.2 22',
+  VSCODE_INJECT_NODE_MODULE_LOOKUP_PATH: '/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/remote/node_modules',
+  VSCODE_CWD: '/home/wuke8866',
+  LS_COLORS: '',
+  LESSCLOSE: '/usr/bin/lesspipe %s %s',
+  JAVA_HOME: '/usr/lib/jvm/java-16-oracle',
+  J2SDKDIR: '/usr/lib/jvm/java-16-oracle',
+  DERBY_HOME: '/usr/lib/jvm/java-16-oracle/db',
+  J2REDIR: '/usr/lib/jvm/java-16-oracle',
+  XDG_DATA_DIRS: '/usr/local/share:/usr/share:/var/lib/snapd/desktop',
+  LESSOPEN: '| /usr/bin/lesspipe %s',
+  VSCODE_LOG_NATIVE: 'false',
+  VSCODE_AMD_ENTRYPOINT: 'vs/server/remoteExtensionHostProcess',
+  VSCODE_PIPE_LOGGING: 'true',
+  VSCODE_VERBOSE_LOGGING: 'true',
+  VSCODE_EXTHOST_WILL_SEND_SOCKET: 'true',
+  VSCODE_HANDLES_UNCAUGHT_ERRORS: 'true',
+  VSCODE_LOG_STACK: 'false',
+  VSCODE_NLS_CONFIG: '{"locale":"en","availableLanguages":{}}',
+  BROWSER: '/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/bin/helpers/browser.sh'
+}
+[03:44:40] *
+[03:44:40] baseEnv {
+  MAIL: '/var/mail/wuke8866',
+  USER: 'wuke8866',
+  SSH_CLIENT: '24.91.9.201 10691 22',
+  SHLVL: '3',
+  OLDPWD: '/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48',
+  HOME: '/home/wuke8866',
+  LOGNAME: 'wuke8866',
+  _: '/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/node',
+  XDG_SESSION_ID: '1465',
+  PATH: '/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/bin:/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-16-oracle/bin:/usr/lib/jvm/java-16-oracle/db/bin',
+  VSCODE_AGENT_FOLDER: '/home/wuke8866/.vscode-server',
+  XDG_RUNTIME_DIR: '/run/user/1001',
+  LANG: 'C.UTF-8',
+  SHELL: '/bin/bash',
+  PWD: '/home/wuke8866',
+  SSH_CONNECTION: '24.91.9.201 10691 10.128.0.2 22',
+  VSCODE_INJECT_NODE_MODULE_LOOKUP_PATH: '/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/remote/node_modules',
+  VSCODE_CWD: '/home/wuke8866',
+  LS_COLORS: '',
+  LESSCLOSE: '/usr/bin/lesspipe %s %s',
+  JAVA_HOME: '/usr/lib/jvm/java-16-oracle',
+  J2SDKDIR: '/usr/lib/jvm/java-16-oracle',
+  DERBY_HOME: '/usr/lib/jvm/java-16-oracle/db',
+  J2REDIR: '/usr/lib/jvm/java-16-oracle',
+  XDG_DATA_DIRS: '/usr/local/share:/usr/share:/var/lib/snapd/desktop',
+  LESSOPEN: '| /usr/bin/lesspipe %s',
+  VSCODE_LOG_NATIVE: 'false',
+  VSCODE_AMD_ENTRYPOINT: 'vs/server/remoteExtensionHostProcess',
+  VSCODE_PIPE_LOGGING: 'true',
+  VSCODE_VERBOSE_LOGGING: 'true',
+  VSCODE_EXTHOST_WILL_SEND_SOCKET: 'true',
+  VSCODE_HANDLES_UNCAUGHT_ERRORS: 'true',
+  VSCODE_LOG_STACK: 'false',
+  VSCODE_NLS_CONFIG: '{"locale":"en","availableLanguages":{}}',
+  BROWSER: '/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/bin/helpers/browser.sh'
+}
+[03:44:41] *
+[03:44:41] baseEnv {
+  MAIL: '/var/mail/wuke8866',
+  USER: 'wuke8866',
+  SSH_CLIENT: '24.91.9.201 10691 22',
+  SHLVL: '3',
+  OLDPWD: '/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48',
+  HOME: '/home/wuke8866',
+  LOGNAME: 'wuke8866',
+  _: '/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/node',
+  XDG_SESSION_ID: '1465',
+  PATH: '/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/bin:/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-16-oracle/bin:/usr/lib/jvm/java-16-oracle/db/bin',
+  VSCODE_AGENT_FOLDER: '/home/wuke8866/.vscode-server',
+  XDG_RUNTIME_DIR: '/run/user/1001',
+  LANG: 'C.UTF-8',
+  SHELL: '/bin/bash',
+  PWD: '/home/wuke8866',
+  SSH_CONNECTION: '24.91.9.201 10691 10.128.0.2 22',
+  VSCODE_INJECT_NODE_MODULE_LOOKUP_PATH: '/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/remote/node_modules',
+  VSCODE_CWD: '/home/wuke8866',
+  LS_COLORS: '',
+  LESSCLOSE: '/usr/bin/lesspipe %s %s',
+  JAVA_HOME: '/usr/lib/jvm/java-16-oracle',
+  J2SDKDIR: '/usr/lib/jvm/java-16-oracle',
+  DERBY_HOME: '/usr/lib/jvm/java-16-oracle/db',
+  J2REDIR: '/usr/lib/jvm/java-16-oracle',
+  XDG_DATA_DIRS: '/usr/local/share:/usr/share:/var/lib/snapd/desktop',
+  LESSOPEN: '| /usr/bin/lesspipe %s',
+  VSCODE_LOG_NATIVE: 'false',
+  VSCODE_AMD_ENTRYPOINT: 'vs/server/remoteExtensionHostProcess',
+  VSCODE_PIPE_LOGGING: 'true',
+  VSCODE_VERBOSE_LOGGING: 'true',
+  VSCODE_EXTHOST_WILL_SEND_SOCKET: 'true',
+  VSCODE_HANDLES_UNCAUGHT_ERRORS: 'true',
+  VSCODE_LOG_STACK: 'false',
+  VSCODE_NLS_CONFIG: '{"locale":"en","availableLanguages":{}}',
+  BROWSER: '/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/bin/helpers/browser.sh'
+}
+rejected promise not handled within 1 second: Error: Could not find pty with id "11"
+stack trace: Error: Could not find pty with id "11",    at P._throwIfNoPty (/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/out/vs/platform/terminal/node/ptyHostMain.js:12:49253),    at P.updateTitle (/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/out/vs/platform/terminal/node/ptyHostMain.js:12:46512),    at Object.call (/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/out/vs/platform/terminal/node/ptyHostMain.js:11:8338),    at P.onPromise (/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/out/vs/platform/terminal/node/ptyHostMain.js:10:50875),    at P.onRawMessage (/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/out/vs/platform/terminal/node/ptyHostMain.js:10:50234),    at /home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/out/vs/platform/terminal/node/ptyHostMain.js:10:49487,    at g.fire (/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/out/vs/platform/terminal/node/ptyHostMain.js:8:1835),    at process.W (/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/out/vs/platform/terminal/node/ptyHostMain.js:6:30761),    at process.emit (events.js:315:20),    at emit (internal/child_process.js:903:12),    at processTicksAndRejections (internal/process/task_queues.js:81:21)
+[Error: Could not find pty with id "11",    at P._throwIfNoPty (/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/out/vs/platform/terminal/node/ptyHostMain.js:12:49253),    at P.updateTitle (/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/out/vs/platform/terminal/node/ptyHostMain.js:12:46512),    at Object.call (/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/out/vs/platform/terminal/node/ptyHostMain.js:11:8338),    at P.onPromise (/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/out/vs/platform/terminal/node/ptyHostMain.js:10:50875),    at P.onRawMessage (/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/out/vs/platform/terminal/node/ptyHostMain.js:10:50234),    at /home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/out/vs/platform/terminal/node/ptyHostMain.js:10:49487,    at g.fire (/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/out/vs/platform/terminal/node/ptyHostMain.js:8:1835),    at process.W (/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/out/vs/platform/terminal/node/ptyHostMain.js:6:30761),    at process.emit (events.js:315:20),    at emit (internal/child_process.js:903:12),    at processTicksAndRejections (internal/process/task_queues.js:81:21)]
