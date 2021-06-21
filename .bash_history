@@ -78,3 +78,33 @@ git checkout wuke/post
 git status
 git commit -a
 fg
+git checkout -b
+git checkout -b wuke/post
+git add -a
+git add -A
+git status
+git add .
+git commit -m "complte post"
+git push
+git push --set-upstream origin wuke/post
+cd ~social
+cd ~social
+cd ~around
+cd ~/social
+go get github.com/auth0/go-jwt-middleware
+go get github.com/form3tech-oss/jwt-go
+cd ~/social
+go run 
+go run *
+go run *.go
+go run *.go
+cd ~/socail
+cd ~/social
+go run *.go
+git status
+git add .
+git commit -m "add signin & signup"
+git push
+go run *.go
+go stop
+go run *.go

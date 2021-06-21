@@ -1,0 +1,66 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --git-dir
+Open repository: /home/wuke8866
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/wuke/post refs/remotes/wuke/post
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :social/post.go
+> git ls-files --stage -- /home/wuke8866/social/post.go
+> git cat-file -s c49991a4d4949e90826892593c6fcaf56755b5bc
+> git show --textconv :social/user.go
+> git ls-files --stage -- /home/wuke8866/social/user.go
+> git check-ignore -v -z --stdin
+> git show --textconv :social/post.go
+> git ls-files --stage -- /home/wuke8866/social/post.go
+> git cat-file -s c49991a4d4949e90826892593c6fcaf56755b5bc
+> git show --textconv :social/main.go
+> git ls-files --stage -- /home/wuke8866/social/main.go
+> git cat-file -s 1f0ecac9322763dbe71e70ea13de56aadd78eb2e
+> git show --textconv :social/handler.go
+> git ls-files --stage -- /home/wuke8866/social/handler.go
+> git cat-file -s 00a19b0ea2170dc7f5d7e64c1579ff830a0db3cc
+> git show --textconv :social/main.go
+> git ls-files --stage -- /home/wuke8866/social/main.go
+> git cat-file -s 1f0ecac9322763dbe71e70ea13de56aadd78eb2e
+> git show --textconv :social/user.go
+> git ls-files --stage -- /home/wuke8866/social/user.go
+> git show --textconv :social/elasticsearch.go
+> git ls-files --stage -- /home/wuke8866/social/elasticsearch.go
+> git cat-file -s 66812c394cc75b7fd53bb91d3ef5d0e2ab663756
+> git show --textconv :social/index/index.go
+> git ls-files --stage -- /home/wuke8866/social/index/index.go
+> git cat-file -s 92b7aa18b30ce8cd3f94fc0d967a11c0fff73d6a
+> git show --textconv :social/user.go
+> git ls-files --stage -- /home/wuke8866/social/user.go
+> git show --textconv :social/post.go
+> git ls-files --stage -- /home/wuke8866/social/post.go
+> git cat-file -s c49991a4d4949e90826892593c6fcaf56755b5bc
+> git show --textconv :social/main.go
+> git ls-files --stage -- /home/wuke8866/social/main.go
+> git cat-file -s 1f0ecac9322763dbe71e70ea13de56aadd78eb2e
+> git show --textconv :social/handler.go
+> git ls-files --stage -- /home/wuke8866/social/handler.go
+> git cat-file -s 00a19b0ea2170dc7f5d7e64c1579ff830a0db3cc
+> git show --textconv :social/user.go
+> git ls-files --stage -- /home/wuke8866/social/user.go
+> git show --textconv :social/go.sum
+> git ls-files --stage -- /home/wuke8866/social/go.sum
+> git cat-file -s d39d19672bf752d03fdfff6d173ac6c3fb051ab4
+> git show --textconv :social/go.mod
+> git ls-files --stage -- /home/wuke8866/social/go.mod
+> git cat-file -s f2989e00d97caa44fd684ca64bfe2ba4c2736638
+> git show --textconv :social/user.go
+> git ls-files --stage -- /home/wuke8866/social/user.go
+> git show --textconv :social/elasticsearch.go
+> git ls-files --stage -- /home/wuke8866/social/elasticsearch.go
+> git cat-file -s 66812c394cc75b7fd53bb91d3ef5d0e2ab663756
+> git show --textconv :social/user.go
+> git ls-files --stage -- /home/wuke8866/social/user.go
+> git show --textconv :social/handler.go
+> git ls-files --stage -- /home/wuke8866/social/handler.go
+> git cat-file -s 00a19b0ea2170dc7f5d7e64c1579ff830a0db3cc

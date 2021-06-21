@@ -6,6 +6,7 @@ import (
     "net/http"
 	"path/filepath"
 	"github.com/pborman/uuid"
+	"github.com/gorilla/mux" 
 	"regexp"
 	"time"
 	jwt "github.com/form3tech-oss/jwt-go"// help generate the token 
@@ -237,5 +238,26 @@ func searchHandler (w http.ResponseWriter, r *http.Request){
 	}
 	// write the result into response body
 	w.Write(js)
+}
 
+func deleteHandler(w http.ResponseWriter, r *http.Request) {
+		fmt.Println("Received one delete for search")
+		w.Header().Set("Access-Control-Allow-Origin", "*")
+		w.Header().Set("Access-Control-Allow-Headers", "Content-Type,Authorization")
+	
+		if r.Method == "OPTIONS" {
+			return
+		}
+
+		user := r.Context().Value("user")
+		claims := user.(*jwt.Token).Claims
+		username := claims.(jwt.MapClaims)["username"].(string)
+		// The names are used to create a map of route variables which can be retrieved calling mux.Vars():
+		id := mux.Vars(r)["id"]
+		if err := deletePost(username, id); err != nil {
+			http.Error(w, "Failed to delete post from Elasticsearch", http.StatusInternalServerError)
+			fmt.Printf("Failed to delete post from Elasticsearch %v\n", err)
+			return
+		}
+		fmt.Println("Post is deleted successfully")
 }
