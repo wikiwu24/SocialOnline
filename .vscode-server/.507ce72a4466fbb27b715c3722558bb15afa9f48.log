@@ -205,3 +205,5 @@ Extension host agent listening on 44055
     at D.cancel (/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/out/vs/platform/files/node/watcher/unix/watcherApp.js:10:26222)
     at Object.stop (/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/out/vs/platform/files/node/watcher/unix/watcherApp.js:11:32702)
     at async E.stop (/home/wuke8866/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/out/vs/platform/files/node/watcher/unix/watcherApp.js:11:34018)
+[19:07:14] [127.0.0.1][3a683fb5][ManagementConnection] The client has reconnected.
+[19:07:15] [127.0.0.1][888f127b][ExtensionHostConnection] The client has reconnected.

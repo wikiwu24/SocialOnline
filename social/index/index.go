@@ -14,10 +14,10 @@ const (
 )
 func main(){
 
-
+    p := properties.MustLoadFile("./config.properties", properties.UTF8)
 	client, err := elastic.NewClient(
         elastic.SetURL(ES_URL),
-        elastic.SetBasicAuth("elastic", "12345678"))
+        elastic.SetBasicAuth(p.MustGetString("esUser"), p.MustGetString("word")))
     if err != nil {
         panic(err)
     }
