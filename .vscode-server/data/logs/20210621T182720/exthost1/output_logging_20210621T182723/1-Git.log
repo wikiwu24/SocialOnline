@@ -78,3 +78,139 @@ Open repository: /home/wuke8866
 > git config --get commit.template
 > git cat-file -s d609ce6d2b37a98bd6a396284a8f095d68dd92dc
 > git show --textconv :social/handler.go
+> git status -z -u
+> git ls-files --stage -- /home/wuke8866/social/handler.go
+> git cat-file -s d75053a67eddad5b03229668eb7a16b418dc3a8a
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/wuke/post refs/remotes/wuke/post
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :social/handler.go
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/wuke/post refs/remotes/wuke/post
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/wuke8866/social/handler.go
+> git cat-file -s d75053a67eddad5b03229668eb7a16b418dc3a8a
+> git show --textconv :social/handler.go
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/wuke/post refs/remotes/wuke/post
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/wuke8866/social/handler.go
+> git cat-file -s d75053a67eddad5b03229668eb7a16b418dc3a8a
+> git show --textconv :social/handler.go
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/wuke/post refs/remotes/wuke/post
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/wuke/post refs/remotes/wuke/post
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :social/elasticsearch.go
+> git ls-files --stage -- /home/wuke8866/social/elasticsearch.go
+> git cat-file -s a36995a2725339e4de01df3bebf95f5d4fe91500
+> git show --textconv :social/config.properties
+> git ls-files --stage -- /home/wuke8866/social/config.properties
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :social/index/index.go
+> git ls-files --stage -- /home/wuke8866/social/index/index.go
+> git cat-file -s 92b7aa18b30ce8cd3f94fc0d967a11c0fff73d6a
+> git show --textconv :social/config.properties
+> git ls-files --stage -- /home/wuke8866/social/config.properties
+> git show --textconv :social/elasticsearch.go
+> git ls-files --stage -- /home/wuke8866/social/elasticsearch.go
+> git cat-file -s a36995a2725339e4de01df3bebf95f5d4fe91500
+> git show --textconv :social/config.properties
+> git ls-files --stage -- /home/wuke8866/social/config.properties
+> git show --textconv :social/elasticsearch.go
+> git ls-files --stage -- /home/wuke8866/social/elasticsearch.go
+> git cat-file -s a36995a2725339e4de01df3bebf95f5d4fe91500
+> git show --textconv :social/config.properties
+> git ls-files --stage -- /home/wuke8866/social/config.properties
+> git show --textconv :social/elasticsearch.go
+> git ls-files --stage -- /home/wuke8866/social/elasticsearch.go
+> git cat-file -s a36995a2725339e4de01df3bebf95f5d4fe91500
+> git show --textconv :social/config.properties
+> git ls-files --stage -- /home/wuke8866/social/config.properties
+> git show --textconv :social/elasticsearch.go
+> git ls-files --stage -- /home/wuke8866/social/elasticsearch.go
+> git cat-file -s a36995a2725339e4de01df3bebf95f5d4fe91500
+> git show --textconv :social/config.properties
+> git ls-files --stage -- /home/wuke8866/social/config.properties
+> git show --textconv :social/elasticsearch.go
+> git ls-files --stage -- /home/wuke8866/social/elasticsearch.go
+> git cat-file -s a36995a2725339e4de01df3bebf95f5d4fe91500
+> git show --textconv :social/config.properties
+> git ls-files --stage -- /home/wuke8866/social/config.properties
+> git show --textconv :social/elasticsearch.go
+> git ls-files --stage -- /home/wuke8866/social/elasticsearch.go
+> git cat-file -s a36995a2725339e4de01df3bebf95f5d4fe91500
+> git show --textconv :social/index/index.go
+> git ls-files --stage -- /home/wuke8866/social/index/index.go
+> git cat-file -s 92b7aa18b30ce8cd3f94fc0d967a11c0fff73d6a
+> git show --textconv :social/config.properties
+> git ls-files --stage -- /home/wuke8866/social/config.properties
+> git show --textconv :social/elasticsearch.go
+> git ls-files --stage -- /home/wuke8866/social/elasticsearch.go
+> git cat-file -s a36995a2725339e4de01df3bebf95f5d4fe91500
+> git show --textconv :social/index/index.go
+> git ls-files --stage -- /home/wuke8866/social/index/index.go
+> git cat-file -s 92b7aa18b30ce8cd3f94fc0d967a11c0fff73d6a
+> git show --textconv :social/elasticsearch.go
+> git ls-files --stage -- /home/wuke8866/social/elasticsearch.go
+> git cat-file -s a36995a2725339e4de01df3bebf95f5d4fe91500
+> git show --textconv :social/index/index.go
+> git ls-files --stage -- /home/wuke8866/social/index/index.go
+> git cat-file -s 92b7aa18b30ce8cd3f94fc0d967a11c0fff73d6a
+> git show --textconv :social/gcs.go
+> git ls-files --stage -- /home/wuke8866/social/gcs.go
+> git cat-file -s 6cfbd37096ceee0cd4b72c0db03ac0f8e4784598
+> git show --textconv :social/post.go
+> git ls-files --stage -- /home/wuke8866/social/post.go
+> git cat-file -s 9d53e105407b28c10a3c387470f7c2ae26194401
+> git show --textconv :social/gcs.go
+> git ls-files --stage -- /home/wuke8866/social/gcs.go
+> git cat-file -s 6cfbd37096ceee0cd4b72c0db03ac0f8e4784598
+> git show --textconv :social/elasticsearch.go
+> git ls-files --stage -- /home/wuke8866/social/elasticsearch.go
+> git cat-file -s a36995a2725339e4de01df3bebf95f5d4fe91500
+> git show --textconv :social/index/index.go
+> git ls-files --stage -- /home/wuke8866/social/index/index.go
+> git cat-file -s 92b7aa18b30ce8cd3f94fc0d967a11c0fff73d6a
+> git show --textconv :social/elasticsearch.go
+> git ls-files --stage -- /home/wuke8866/social/elasticsearch.go
+> git cat-file -s a36995a2725339e4de01df3bebf95f5d4fe91500
+> git show --textconv :.gitingnore
+> git ls-files --stage -- /home/wuke8866/.gitingnore
+> git check-ignore -v -z --stdin
+> git show --textconv :.gitconfig
+> git ls-files --stage -- /home/wuke8866/.gitconfig
+> git cat-file -s 905a8630cb9daf01b97300c7ff40efc2d8ba1b00
+> git show --textconv :.gitingnore
+> git ls-files --stage -- /home/wuke8866/.gitingnore
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/wuke/post refs/remotes/wuke/post
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/wuke8866/.gitingnore
+> git show --textconv :.gitingnore
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/wuke/post refs/remotes/wuke/post
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
