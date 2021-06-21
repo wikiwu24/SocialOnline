@@ -6,6 +6,11 @@ import (
     "net/http"
 	"path/filepath"
 	"github.com/pborman/uuid"
+	"regexp"
+	"time"
+	jwt "github.com/form3tech-oss/jwt-go"// help generate the token 
+	// "jwt" is the alias of the library, you can use the alias directly in your code
+	// instead of using the whole name 
 
 )
 
@@ -23,6 +28,99 @@ var (
     }
 )
 
+var mySigningKey = []byte("secret") 
+// data type: byte array?
+// jwt library need byte array
+
+func signinHandler(w http.ResponseWriter, r *http.Request){
+	fmt.Println("received one signin request")
+	w.Header().Set("Content-type", "text/plain")
+    w.Header().Set("Access-Control-Allow-Origin", "*") // support cors
+    w.Header().Set("Access-Control-Allow-Headers", "Content-Type")
+
+    if r.Method == "OPTIONS"{
+		return 
+	}
+    // parse from request body to get a json object
+	decoder := json.NewDecoder(r.Body)
+	var user User
+	// &user: means we pass the reference of the user to the function
+	//&user : make sure we make change on user instead of on its copy
+	if err := decoder.Decode(&user); err != nil{
+		http.Error(w, "Cannot decode user data from the client", http.StatusBadRequest)
+		fmt.Printf("Cannot deccode user data from client %v\n", err)
+		return 
+	}
+	checkUser(user.Username, user.Password)
+	// if err != nil {
+		
+	// }
+	// if exist, genetate token for the user
+	token := jwt.NewWithClaims(jwt.SigningMethodHS256, jwt.MapClaims{
+		// payload
+		"username":user.Username,
+		// set expire time
+		// Unix():Unix TimeStamp
+		"exp" : time.Now().Add(time.Hour * 48).Unix(),
+	})
+	tokenString, err := token.SignedString(mySigningKey)
+	if err != nil {
+        http.Error(w, "Failed to generate token", http.StatusInternalServerError)
+        fmt.Printf("Failed to generate token %v\n", err)
+        return
+    }
+
+	// write the toke into the response body
+	w.Write([]byte(tokenString))
+
+
+}
+
+func signupHandler(w http.ResponseWriter, r *http.Request){
+	fmt.Println("received one signin request")
+	w.Header().Set("Content-type", "text/plain")
+    w.Header().Set("Access-Control-Allow-Origin", "*") // support cors
+    w.Header().Set("Access-Control-Allow-Headers", "Content-Type")
+
+	if r.Method == "OPTIONS"{
+		return 
+	}
+    // parse from request body to get a json object
+	decoder := json.NewDecoder(r.Body)
+	var user User
+	// &user: means we pass the reference of the user to the function
+	//&user : make sure we make change on user instead of on its copy
+	if err := decoder.Decode(&user); err != nil{
+		http.Error(w, "Cannot decode user data from the client", http.StatusBadRequest)
+		fmt.Printf("Cannot deccode user data from client %v\n", err)
+		return 
+	}
+    
+	if user.Username == "" || user.Password == "" || regexp.MustCompile(`^[A-Za-z0-9]$`).MatchString(user.Username){
+		http.Error(w, "Invalid username or password", http.StatusBadRequest)
+		fmt.Printf("Invalid username or password")
+		return 
+	}
+	success, err:= addUser(&user)
+	// handle exceptions
+	if err != nil {
+		http.Error(w, "Fail to save user to Elasticsearch", http.StatusBadRequest)
+		fmt.Printf("Fail to save user to Elasticsearch %v\n", err)
+		return 
+	}
+	if !success {
+		http.Error(w, "User already exist!", http.StatusBadRequest)
+		fmt.Printf("User already exist!")
+		return 
+
+	}
+    fmt.Printf("User added successfully: %s.\n", user.Username)
+
+}
+
+// 后端不需要有signouthandler，因为token在客户端，前端进行销毁就好，
+// session-base 就需要后端进行销毁
+
 // 为什么 ResponseWriter 是传入值， Request 传入的是pointer
 // Responsewriter 在Go中是interface，Request是struct， 相当于class
 // interface 不能被实例化，所以不存在引用（pointer)
@@ -36,14 +134,20 @@ func uploadHandler (w http.ResponseWriter, r *http.Request){
 	fmt.Println("received one post request")
     w.Header().Set("Access-Control-Allow-Origin", "*")
     w.Header().Set("Access-Control-Allow-Headers", "Content-Type,Authorization")
-    // 支持跨域访问
+    
     if r.Method == "OPTIONS" {
         return
     }
+	// before upload, we need to decode the username from the payload of token
+	// user 这个key对应的value是token
+	rawTokenString := r.Context().Value("user")
+	claims := rawTokenString.(*jwt.Token).Claims // payload
+	// cast rawTokenString into token type
+	username := claims.(jwt.MapClaims)["username"]// get the username according to the key
 	// create the post we want to upload
 	p:= Post{
         Id: uuid.New(),// use uuid library to create a global unique id
-		User: r.FormValue("user"), // extrat the user name from form-data 
+		User: username.(string),// extrat the user name from form-data 
 		Message: r.FormValue("message"),
 
 	}
