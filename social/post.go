@@ -73,3 +73,12 @@ func savePost(post *Post,  file multipart.File) error{
 
 }
 
+func deletePost(userId string, postId string)error{
+    query := elastic.NewBoolQuery()
+    query.Must(elastic.NewTermQuery("user",userId))
+    query.Must(elastic.NewTermQuery("id",postId))
+
+    return deleteFromES(query, POST_INDEX)
+   
+}
+

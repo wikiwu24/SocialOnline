@@ -28,6 +28,7 @@ func main() {
     r := mux.NewRouter()
     r.Handle("/upload",  jwtMiddleware.Handler(http.HandlerFunc(uploadHandler))).Methods("POST", "OPTIONS")
     r.Handle("/search",  jwtMiddleware.Handler(http.HandlerFunc(searchHandler))).Methods("GET", "OPTIONS")
+    r.Handle("/post/{id}",  jwtMiddleware.Handler(http.HandlerFunc(deleteHandler))).Methods("DELETE", "OPTIONS")
     r.Handle("/signin", http.HandlerFunc(signinHandler)).Methods("POST", "OPTIONS")
     r.Handle("/signup", http.HandlerFunc(signupHandler)).Methods("POST", "OPTIONS")
     // OPTIONS: 前后端在不同的域名上（domain）（cross domain）通过options特殊请求

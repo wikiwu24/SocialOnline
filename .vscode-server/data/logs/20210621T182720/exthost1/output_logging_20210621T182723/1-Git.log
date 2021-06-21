@@ -1,0 +1,80 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --git-dir
+Open repository: /home/wuke8866
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/wuke/post refs/remotes/wuke/post
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :social/post.go
+> git ls-files --stage -- /home/wuke8866/social/post.go
+> git cat-file -s c49991a4d4949e90826892593c6fcaf56755b5bc
+> git show --textconv :social/handler.go
+> git ls-files --stage -- /home/wuke8866/social/handler.go
+> git cat-file -s d609ce6d2b37a98bd6a396284a8f095d68dd92dc
+> git show --textconv :social/main.go
+> git ls-files --stage -- /home/wuke8866/social/main.go
+> git cat-file -s b6eb1b2a42dcaaf2fd15fd678978ac87f4d61c8b
+> git show --textconv :social/post.go
+> git ls-files --stage -- /home/wuke8866/social/post.go
+> git cat-file -s c49991a4d4949e90826892593c6fcaf56755b5bc
+> git show --textconv :social/main.go
+> git ls-files --stage -- /home/wuke8866/social/main.go
+> git cat-file -s b6eb1b2a42dcaaf2fd15fd678978ac87f4d61c8b
+> git show --textconv :social/handler.go
+> git ls-files --stage -- /home/wuke8866/social/handler.go
+> git cat-file -s d609ce6d2b37a98bd6a396284a8f095d68dd92dc
+> git show --textconv :social/main.go
+> git ls-files --stage -- /home/wuke8866/social/main.go
+> git cat-file -s b6eb1b2a42dcaaf2fd15fd678978ac87f4d61c8b
+> git show --textconv :social/post.go
+> git ls-files --stage -- /home/wuke8866/social/post.go
+> git cat-file -s c49991a4d4949e90826892593c6fcaf56755b5bc
+> git show --textconv :social/handler.go
+> git ls-files --stage -- /home/wuke8866/social/handler.go
+> git cat-file -s d609ce6d2b37a98bd6a396284a8f095d68dd92dc
+> git show --textconv :social/main.go
+> git ls-files --stage -- /home/wuke8866/social/main.go
+> git cat-file -s b6eb1b2a42dcaaf2fd15fd678978ac87f4d61c8b
+> git show --textconv :social/handler.go
+> git ls-files --stage -- /home/wuke8866/social/handler.go
+> git cat-file -s d609ce6d2b37a98bd6a396284a8f095d68dd92dc
+> git show --textconv :social/user.go
+> git ls-files --stage -- /home/wuke8866/social/user.go
+> git cat-file -s 1f14ed95df7d1d3a8778d6763edccb8a202b3f9b
+> git show --textconv :social/post.go
+> git ls-files --stage -- /home/wuke8866/social/post.go
+> git cat-file -s c49991a4d4949e90826892593c6fcaf56755b5bc
+> git show --textconv :social/main.go
+> git ls-files --stage -- /home/wuke8866/social/main.go
+> git cat-file -s b6eb1b2a42dcaaf2fd15fd678978ac87f4d61c8b
+> git show --textconv :social/handler.go
+> git ls-files --stage -- /home/wuke8866/social/handler.go
+> git cat-file -s d609ce6d2b37a98bd6a396284a8f095d68dd92dc
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/wuke/post refs/remotes/wuke/post
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/wuke8866/social/handler.go
+> git cat-file -s d609ce6d2b37a98bd6a396284a8f095d68dd92dc
+> git show --textconv :social/handler.go
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/wuke/post refs/remotes/wuke/post
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/wuke/post refs/remotes/wuke/post
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git ls-files --stage -- /home/wuke8866/social/handler.go
+> git config --get commit.template
+> git cat-file -s d609ce6d2b37a98bd6a396284a8f095d68dd92dc
+> git show --textconv :social/handler.go
