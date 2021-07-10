@@ -1,13 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from './components/App';
 import reportWebVitals from './reportWebVitals';
 
+import {BrowserRouter} from 'react-router-dom';
+
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  // 用BroswerRouter包裹根组件
+   <BrowserRouter>
+        <App />,
+   </BrowserRouter>,
+  
+ 
   document.getElementById('root')
 );
 

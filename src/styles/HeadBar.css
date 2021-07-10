@@ -1,0 +1,52 @@
+.App-header {
+    background-color: #282c34;
+    display: flex;
+    /* flex-direction: column;  column是按照上下排布，我们就默认左右排布就好*/
+    align-items: center;
+    /* justify-content: center; */
+    color: white;
+    height: 50px;
+}
+
+.App-logo {
+    height: 40px;
+    pointer-events: none;
+}
+
+.App-title {
+    flex:1;
+    padding-left: 10px;
+    text-align :left;  
+    font-weight:bold;
+    font-size: 16px;
+
+}
+.logout-bar{
+    display: flex;
+    align-items: center;
+
+}
+.logout{
+    font-size: 20px;
+    padding-right: 20px;
+}
+.logout-title{
+    font-size:14px;
+    padding-right: 10px;
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
+   .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+   }
+}
+
+@keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+} */
+  
